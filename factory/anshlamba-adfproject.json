@@ -1,0 +1,15 @@
+{
+	"name": "anshlamba-adfproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f1b7d172-beed-4d69-9954-75080bacaa70",
+		"tenantId": "4081cc64-f800-4718-8568-94add2b36c9e"
+	}
+}

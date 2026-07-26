@@ -1,0 +1,25 @@
+{
+	"name": "trigger_goldlayerpipeline",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "GoldLayer",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 1,
+				"startTime": "2026-07-25T15:20:00",
+				"endTime": "2026-07-26T15:30:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
